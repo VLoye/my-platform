@@ -7,11 +7,11 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author V
- * @Classname DefaultLifecycleManager
+ * @Classname DefaultILifecycleManager
  * @Description 默认生命周期管理空实现
  **/
-public class DefaultLifecycleManager extends AbstractLifecycleManager{
-    private static final Logger logger = LoggerFactory.getLogger(DefaultLifecycleManager.class);
+public class DefaultILifecycleManager extends AbstractILifecycleManager {
+    private static final Logger logger = LoggerFactory.getLogger(DefaultILifecycleManager.class);
     private int state;
     public boolean initialized = false;
     @Override

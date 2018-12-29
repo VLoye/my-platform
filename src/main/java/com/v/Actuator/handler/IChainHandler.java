@@ -5,7 +5,7 @@ import com.v.Actuator.Context;
 /**
  * Created by VLoye on 2018/12/27.
  */
-public interface ChainHandler {
+public interface IChainHandler {
 
     Boolean handler(Context context);
 }

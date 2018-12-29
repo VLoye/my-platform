@@ -4,10 +4,10 @@ package com.v.common;/**
 
 /**
  * @author V
- * @Classname AbstractLifecycleManager
+ * @Classname AbstractILifecycleManager
  * @Description
  **/
-public abstract class AbstractLifecycleManager implements LifecycleManager{
+public abstract class AbstractILifecycleManager implements ILifecycleManager {
     //todo 定义属性
 
 

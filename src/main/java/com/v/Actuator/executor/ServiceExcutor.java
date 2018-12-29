@@ -2,6 +2,7 @@ package com.v.Actuator.executor;/**
  * Created by VLoye on 2018/12/17.
  */
 
+import com.v.Actuator.App;
 import com.v.Actuator.Service;
 import com.v.Actuator.loader.AppLoader;
 import com.v.proxy.ProxyFactory;
@@ -18,9 +19,10 @@ import java.lang.reflect.Method;
  * 包含具体的方法信息，方法参数类型[]，调用对象，参数信息
  **/
 public class ServiceExcutor implements Service {
-    //todo 关于如何将jar包的class文件保存到一个map中，map<functionName-serviceName,Service>   签名？
+    //todo 关于如何将jar包的class文件保存到一个map中，map<functionName-serviceName,Service>   签名？   true
 
     private static final Logger logger = LoggerFactory.getLogger(ServiceExcutor.class);
+    private App app;
 
     private Method method = null;
     private Object delegate = null;

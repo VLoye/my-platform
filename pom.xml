@@ -12,7 +12,7 @@
 	<artifactId>my-platform</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>my-platform</name>
-	<description>Demo project for a service middler platform</description>
+	<description>Demo project for a Service middler platform</description>
 
 	<properties>
 		<java.version>1.8</java.version>

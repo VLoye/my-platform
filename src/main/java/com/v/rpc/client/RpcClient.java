@@ -2,7 +2,7 @@ package com.v.rpc.client;/**
  * Created by VLoye on 2018/12/19.
  */
 
-import com.v.common.DefaultLifecycleManager;
+import com.v.common.DefaultILifecycleManager;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -18,7 +18,7 @@ import java.net.InetSocketAddress;
  * @Classname RpcClient
  * @Description
  **/
-public class RpcClient extends DefaultLifecycleManager implements Runnable {
+public class RpcClient extends DefaultILifecycleManager implements Runnable {
     private static final Logger logger = LoggerFactory.getLogger(RpcClient.class);
 
     private static final String THREAD_NAME = "RpcClient";

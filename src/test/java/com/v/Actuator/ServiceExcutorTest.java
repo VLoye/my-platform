@@ -20,12 +20,12 @@ public class ServiceExcutorTest {
     public void testProxy() throws Exception {
         AppLoader appLoader = new AppLoader();
         appLoader.load("Trace001");
-        Service serviceExecutor = ServiceExcutor.newBuilder()
+        Service ServiceExecutor = ServiceExcutor.newBuilder()
                 .setAppName("Trace001")
                 .setFunctionName("com.v.Calculate")
                 .setServiceName("add")
                 .build();
-        Object result = serviceExecutor.execute(new Integer[]{10,100});
+        Object result = ServiceExecutor.execute(new Integer[]{10,100});
         System.out.println(result);
 
     }

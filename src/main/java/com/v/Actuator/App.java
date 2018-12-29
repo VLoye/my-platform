@@ -8,11 +8,16 @@ package com.v.Actuator;
 **/
 public interface App {
 
+
+
+
     //加载应用
     void load(String serviceName);
+    void loadAll();
 
     //卸载应用
     void unload(String serviceName);
+    void unloadAll();
 
 //    void suspend(String serviceName);
 }

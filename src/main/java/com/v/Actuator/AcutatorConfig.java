@@ -24,6 +24,8 @@ public class AcutatorConfig {
     private TimeUnit timeUnit;
     private int queueSize;
 
+    private String appAbsolutePath;
+
 
     public AcutatorConfig() {
         this.isLocalFirst = true;

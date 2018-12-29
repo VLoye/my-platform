@@ -17,8 +17,8 @@ import java.lang.reflect.Proxy;
 public class ProxyFactory {
     private static final Logger logger = LoggerFactory.getLogger(ProxyFactory.class);
 
-    public static Service getServiceProxy(Service service){
-        return getProxy(service,new ServiceInvokeHandler<Service>(service));
+    public static Service getServiceProxy(Service Service){
+        return getProxy(Service,new ServiceInvokeHandler<Service>(Service));
     }
 
     public static <T>  T getProxy(T t,InvocationHandler handler){

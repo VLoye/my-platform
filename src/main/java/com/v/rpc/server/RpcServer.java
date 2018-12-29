@@ -2,8 +2,7 @@ package com.v.rpc.server;/**
  * Created by VLoye on 2018/12/19.
  */
 
-import com.v.common.AbstractLifecycleManager;
-import com.v.common.DefaultLifecycleManager;
+import com.v.common.DefaultILifecycleManager;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -27,7 +26,7 @@ import java.net.InetSocketAddress;
  * @Classname RpcServer
  * @Description
  **/
-public class RpcServer extends DefaultLifecycleManager implements Runnable{
+public class RpcServer extends DefaultILifecycleManager implements Runnable{
     private static final Logger logger = LoggerFactory.getLogger(RpcServer.class);
     private static final String THREAD_NAME = "RpcServer";
 

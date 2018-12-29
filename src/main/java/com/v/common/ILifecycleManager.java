@@ -4,10 +4,10 @@ package com.v.common;/**
 
 /**
  * @author V
- * @Classname LifecycleManager
+ * @Classname ILifecycleManager
  * @Description 生命周期管理
  **/
-public interface LifecycleManager {
+public interface ILifecycleManager {
 
     void init();
 
