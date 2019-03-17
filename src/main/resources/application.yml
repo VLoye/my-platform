@@ -1,0 +1,26 @@
+server:
+  port: 8001
+actuator:
+  apps-absolute-path: D:/Idea_Projects/my-platform/src/main/resources/service
+  coreSize: 10
+  maxSize: 20
+  keepAlive: 5
+  timeUnit: SECONDS
+  queueSize: 1024
+  name: actuator
+conn:
+  boss-threads: 1
+  worker-threads: 1
+  host: localhost
+  port: 9999
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+logging:
+  config: classpath:config/logback.xml
+

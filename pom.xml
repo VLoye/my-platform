@@ -8,9 +8,9 @@
 		<version>2.1.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.v</groupId>
+	<groupId>cn.gxf</groupId>
 	<artifactId>my-platform</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>my-platform</name>
 	<description>Demo project for a Service middler platform</description>
 
@@ -45,6 +45,11 @@
 			<version>4.1.32.Final</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -59,7 +64,16 @@
 			<scope>provided</scope>
 		</dependency>
 
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 
 	</dependencies>
 
@@ -68,6 +82,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--<configuration>-->
+					<!--<skip>true</skip>-->
+				<!--</configuration>-->
 			</plugin>
 		</plugins>
 	</build>
