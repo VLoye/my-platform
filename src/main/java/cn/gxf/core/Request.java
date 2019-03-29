@@ -3,7 +3,6 @@ package cn.gxf.core;/**
  */
 
 import cn.gxf.Utils.UUIDUtil;
-import cn.gxf.actuator.executor.DefaultHeader;
 import cn.gxf.connector.codec.ProtocolType;
 import cn.gxf.connector.protocol.SITP;
 import lombok.Data;

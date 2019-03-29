@@ -16,14 +16,14 @@ import java.io.DataOutputStream;
  **/
 @Data
 public class DefaultFrame{
-    private int magic; //4  DefaultFrame
-    private int length;
-    private byte version;
-    private byte reply; //0f 1t
-    private byte type; // 1表示SITP
-    private byte[] sessionId;
-    private byte[] data;   //1 tlen 1 vlen
-    private int crc;
+    private int magic;           // 4     DefaultFrame
+    private int length;          // 4     报文长度
+    private byte version;        // 1
+    private byte reply;          // 1       0f 1t
+    private byte type;           // 1         表示SITP
+    private byte[] sessionId;    // 16
+    private byte[] data;         // n        1 tlen 1 vlen
+    private int crc;             //4
 
     private byte[] source;
 

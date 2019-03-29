@@ -18,6 +18,7 @@ import io.netty.util.AttributeKey;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -129,9 +130,10 @@ public class SITPClient {
         client.connect();
 
         ArrayList list = new ArrayList();
-        list.add(1);
-        list.add(2);
-        Object res = client.invoke("Trace001-1.0", "calculate", "add", list);
+        list.add(10001);
+        list.add(10002);
+        list.add(new BigDecimal(1000));
+        Object res = client.invoke("Trace002-1.0", "trace", "transfer", list);
         System.out.println(res);
     }
 }

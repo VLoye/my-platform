@@ -3,7 +3,7 @@ package cn.gxf.Utils;/**
  */
 
 import cn.gxf.core.Constants;
-import cn.gxf.actuator.executor.DefaultHeader;
+import cn.gxf.core.DefaultHeader;
 import cn.gxf.core.Request;
 import cn.gxf.connector.codec.ProtocolType;
 import org.slf4j.Logger;

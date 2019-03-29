@@ -1,4 +1,4 @@
-package cn.gxf.actuator.executor;/**
+package cn.gxf.actuator.executor.core;/**
  * Created by VLoye on 2019/3/15.
  */
 

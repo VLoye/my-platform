@@ -17,6 +17,8 @@ public class Constants {
     public static final String stringClass = "java.lang.String";
     public static final String intClass = "java.lang.Integer";
     public static final String doubleClass = "java.lang.Double";
+    public static final String booleanClass = "java.lang.Boolean";
+
 
     public static final String ACTUATOR = "actuator";
     public static final String SITP = "sitp";

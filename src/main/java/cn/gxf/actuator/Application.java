@@ -31,7 +31,7 @@ public class Application extends AbstractApp implements App {
     private Map<Class<?>, IBean> IOC = new ConcurrentHashMap<Class<?>, IBean>(128);
     private String name;
     private Actuator actuator;
-    private static String path;
+    private String path;
 
 
     public Application(String name, String path, ClassLoader classLoader) {

@@ -1,0 +1,70 @@
+17:19:27.515 [ServiceInvocationThread-1] WARN  WARN (ServiceInvocationTask.java:77)- Invalid request ,app not found: [trace]
+17:19:27.518 [ServiceInvocationThread-1] ERROR ERROR (ServiceInvocationTask.java:47)- Service trace/cal/add execute cause a exception: Service Invocation fail, no such app: trace
+17:22:27.777 [ServiceInvocationThread-1] WARN  WARN (ServiceInvocationTask.java:77)- Invalid request ,app not found: [trace]
+17:22:27.780 [ServiceInvocationThread-1] ERROR ERROR (ServiceInvocationTask.java:47)- Service trace/cal/add execute cause a exception: Service Invocation fail, no such app: trace
+2019-03-16 17:51:47.475 INFO  - [---------------- Trace Start ----------------]
+2019-03-16 17:51:47.477 INFO  - Trace ID:[18f24584f8214e4e]
+2019-03-16 17:51:47.478 INFO  - Start timestamp: [1552729907475]
+2019-03-16 17:51:47.478 INFO  - Target service: [trace/cal/add]
+2019-03-16 17:51:47.479 INFO  - Params: [type: [class java.lang.Integer] value [1]]
+2019-03-16 17:51:47.479 INFO  - Params: [type: [class java.lang.String] value [test]]
+2019-03-16 17:51:47.480 WARN  - Invalid request ,app not found: [trace]
+2019-03-16 17:51:47.481 INFO  - Service execute result: [false}
+2019-03-16 17:51:47.484 ERROR - Service execute cause a exception :[{}]
+cn.gxf.actuator.executor.exec.ServiceInvocationException: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.initContext(ServiceInvocationTask.java:109)
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:48)
+	... 5 common frames omitted
+2019-03-16 17:51:47.485 INFO  - Elapsed Time: [10]ms
+2019-03-16 17:51:47.485 INFO  - [---------------- Trace End -----------------]
+2019-03-16 19:48:02.333 INFO  - [---------------- Trace Start ----------------]
+2019-03-16 19:48:02.342 INFO  - Trace ID:[9b6e5403f2d54e0c]
+2019-03-16 19:48:02.343 INFO  - Start timestamp: [1552736882332]
+2019-03-16 19:48:02.343 INFO  - Target service: [trace/cal/add]
+2019-03-16 19:48:02.343 INFO  - Params: [type: [class java.lang.Integer] value [1]]
+2019-03-16 19:48:02.344 INFO  - Params: [type: [class java.lang.String] value [test]]
+2019-03-16 19:48:02.344 WARN  - Invalid request ,app not found: [trace]
+2019-03-16 19:48:02.345 INFO  - Service execute result: [false}
+2019-03-16 19:48:02.345 ERROR - Service execute cause a exception :[{}]
+cn.gxf.actuator.executor.exec.ServiceInvocationException: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.initContext(ServiceInvocationTask.java:109)
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:48)
+	... 5 common frames omitted
+2019-03-16 19:48:02.346 INFO  - Elapsed Time: [14]ms
+2019-03-16 19:48:02.346 INFO  - [---------------- Trace End -----------------]
+2019-03-16 21:55:55.677 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-16 21:55:55.679 [INFO ] - Trace ID:[03609e0316c14ec0]
+2019-03-16 21:55:55.680 [INFO ] - Start timestamp: [1552744555677]
+2019-03-16 21:55:55.680 [INFO ] - Target service: [trace/cal/add]
+2019-03-16 21:55:55.681 [INFO ] - Params: [type: [class java.lang.Integer] | value [1]]
+2019-03-16 21:55:55.681 [INFO ] - Params: [type: [class java.lang.String] | value [test]]
+2019-03-16 21:55:55.681 [WARN ] - Invalid request ,app not found: [trace]
+2019-03-16 21:55:55.682 [INFO ] - Service execute result: [false]
+2019-03-16 21:55:55.685 [ERROR] - Service execute cause a exception :[{}]
+cn.gxf.actuator.executor.exec.ServiceInvocationException: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: trace
+	at cn.gxf.actuator.executor.ServiceInvocationTask.initContext(ServiceInvocationTask.java:112)
+	at cn.gxf.actuator.executor.ServiceInvocationTask.run(ServiceInvocationTask.java:50)
+	... 5 common frames omitted
+2019-03-16 21:55:55.685 [INFO ] - Elapsed Time: [8]ms
+2019-03-16 21:55:55.685 [INFO ] - [---------------- Trace End   ----------------]

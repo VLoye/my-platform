@@ -18,11 +18,9 @@ import java.lang.reflect.Method;
  * @Description 包含服务调用上下文
  * 包含具体的方法信息，方法参数类型[]，调用对象，参数信息
  **/
+// TODO: 2019/3/16 这个类需要重构
 @Data
-public class Context {
-// TODO: 2019/3/16 这个类需要重构 
-    
-    
+public class Context implements IContext{
     private static final Logger logger = LoggerFactory.getLogger(Context.class);
     private String sessionId;
     private Method method = null;
@@ -30,14 +28,9 @@ public class Context {
     private Request request;
     private Response response;
     private IChainHandler chainHandler;
-//    private Actuator actuator;
     private Object delegate;
     private Application app;
     private long startTime;
-
-//    private boolean isSuspend;//是否挂起
-
-//    private ContextBuilder bulider;//内部构造对象
 
 
     public Context(Request request) {

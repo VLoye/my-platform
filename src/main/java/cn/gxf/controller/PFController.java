@@ -1,4 +1,4 @@
-package cn.gxf.ctrl.controller;
+package cn.gxf.controller;
 
 import cn.gxf.MyPlatformServer;
 import cn.gxf.monitor.BusyThreadState;

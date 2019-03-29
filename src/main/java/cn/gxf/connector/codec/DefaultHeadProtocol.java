@@ -2,7 +2,7 @@ package cn.gxf.connector.codec;/**
  * Created by VLoye on 2019/3/13.
  */
 
-import cn.gxf.actuator.executor.DefaultHeader;
+import cn.gxf.core.DefaultHeader;
 import cn.gxf.connector.AbstractProtocol;
 import cn.gxf.connector.IProtocol;
 import org.slf4j.Logger;

@@ -1,0 +1,347 @@
+2019-03-17 15:15:24.635 [INFO ] - Starting MyPlatformApplication on v with PID 42208 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-17 15:15:24.640 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 15:15:31.824 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 15:15:31.830 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 15:15:31.838 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 15:15:31.838 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 15:15:31.880 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 15:15:31.881 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 15:15:31.881 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 15:15:31.956 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 15:15:32.047 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 15:15:32.047 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 15:15:32.047 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 15:15:32.048 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 15:15:32.048 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 15:15:32.048 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 15:15:32.383 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 15:15:32.384 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 15:15:33.351 [INFO ] - Started MyPlatformApplication in 9.849 seconds (JVM running for 11.037)
+2019-03-17 15:21:19.481 [INFO ] - Starting MyPlatformApplication on v with PID 30584 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-17 15:21:19.488 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 15:21:26.502 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 15:21:26.508 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 15:21:26.514 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 15:21:26.514 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 15:21:26.532 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 15:21:26.542 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 15:21:26.542 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 15:21:26.592 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 15:21:26.674 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 15:21:26.674 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 15:21:26.674 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 15:21:26.675 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 15:21:26.675 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 15:21:26.676 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 15:21:27.003 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 15:21:27.004 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 15:21:27.004 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 15:21:27.984 [INFO ] - Started MyPlatformApplication in 9.457 seconds (JVM running for 10.473)
+2019-03-17 15:23:02.741 [INFO ] - Starting MyPlatformApplication on v with PID 42004 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-17 15:23:02.765 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 15:23:10.099 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 15:23:10.104 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 15:23:10.108 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 15:23:10.109 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 15:23:10.131 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 15:23:10.132 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 15:23:10.133 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 15:23:10.195 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 15:23:10.289 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 15:23:10.289 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 15:23:10.290 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 15:23:10.290 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 15:23:10.291 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 15:23:10.291 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 15:23:10.632 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 15:23:10.633 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 15:23:10.633 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 15:23:11.715 [INFO ] - Started MyPlatformApplication in 10.017 seconds (JVM running for 11.186)
+2019-03-17 16:21:13.182 [INFO ] - Starting ActuatorTest on v with PID 27356 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 16:21:13.188 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 16:21:16.055 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 16:21:16.058 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 16:21:16.065 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 16:21:16.066 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 16:21:16.080 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 16:21:16.080 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 16:21:16.081 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 16:21:16.127 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 16:21:16.381 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 16:21:16.382 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 16:21:16.382 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 16:21:16.383 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 16:21:16.386 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 16:21:16.387 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 16:21:16.890 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 16:21:16.891 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 16:21:16.891 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 16:21:20.026 [INFO ] - Started ActuatorTest in 7.651 seconds (JVM running for 9.554)
+2019-03-17 16:21:20.367 [INFO ] - App[test] load succeed
+2019-03-17 16:21:20.438 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 16:21:20.439 [INFO ] - Rpc server is initialized
+2019-03-17 16:21:20.439 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 16:21:20.440 [INFO ] - Rpc server is starting on port:0
+2019-03-17 16:21:20.440 [INFO ] - Rpc server is started.
+2019-03-17 16:21:30.483 [INFO ] - [cn.gxf.actuator.Application] is closed
+2019-03-17 16:21:30.484 [INFO ] - [cn.gxf.actuator.Actuator] is closed
+2019-03-17 16:21:30.485 [INFO ] - [cn.gxf.connector.SITPService] is closed
+2019-03-17 16:21:30.486 [INFO ] - [cn.gxf.MyPlatformServer] is closed
+2019-03-17 16:21:30.486 [INFO ] - ****************************************
+*          中间业务系统关闭成功        *
+****************************************
+2019-03-17 16:34:02.987 [INFO ] - Starting ActuatorTest on v with PID 43684 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 16:34:02.991 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 16:34:05.953 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 16:34:05.958 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 16:34:05.966 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 16:34:05.967 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 16:34:05.986 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 16:34:05.987 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 16:34:05.988 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 16:34:06.043 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 16:34:06.310 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 16:34:06.310 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 16:34:06.311 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 16:34:06.311 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 16:34:06.313 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 16:34:06.314 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 16:34:06.656 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 16:34:06.656 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 16:34:06.657 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 16:34:09.769 [INFO ] - Started ActuatorTest in 7.589 seconds (JVM running for 9.296)
+2019-03-17 16:34:10.212 [INFO ] - App[test] load succeed
+2019-03-17 16:34:10.366 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 16:34:10.366 [INFO ] - Rpc server is initialized
+2019-03-17 16:34:10.367 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 16:34:10.379 [INFO ] - Rpc server is starting on port:0
+2019-03-17 16:34:10.380 [INFO ] - Rpc server is started.
+2019-03-17 16:34:20.399 [INFO ] - [cn.gxf.actuator.Application] is closed
+2019-03-17 16:34:20.400 [INFO ] - [cn.gxf.actuator.Actuator] is closed
+2019-03-17 16:34:20.403 [INFO ] - [cn.gxf.connector.SITPService] is closed
+2019-03-17 16:34:20.404 [INFO ] - [cn.gxf.MyPlatformServer] is closed
+2019-03-17 16:34:20.404 [INFO ] - ****************************************
+*          中间业务系统关闭成功        *
+****************************************
+2019-03-17 19:20:21.599 [INFO ] - Starting MyPlatformApplication on v with PID 43996 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-17 19:20:21.606 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 19:20:28.016 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 19:20:28.023 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 19:20:28.029 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 19:20:28.029 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 19:20:28.044 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 19:20:28.045 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 19:20:28.046 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 19:20:28.091 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 19:20:28.189 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 19:20:28.189 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 19:20:28.190 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 19:20:28.190 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 19:20:28.191 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 19:20:28.192 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 19:20:28.731 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 19:20:28.732 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 19:20:28.735 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 19:20:29.743 [INFO ] - Started MyPlatformApplication in 9.254 seconds (JVM running for 10.417)
+2019-03-17 21:02:04.249 [INFO ] - Starting ActuatorTest on v with PID 44200 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:02:04.254 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:02:06.741 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:02:06.744 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:02:06.776 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:02:06.777 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:02:06.807 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:02:06.808 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:02:06.809 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:02:06.858 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:02:07.115 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:02:07.115 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:02:07.116 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:02:07.117 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:02:07.118 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:02:07.120 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:02:07.570 [INFO ] - App[test] load succeed
+2019-03-17 21:02:07.839 [INFO ] - Starting MyPlatformApplicationTests on v with PID 44200 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:02:07.840 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:02:08.533 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:02:08.537 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:02:08.539 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:02:08.542 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:02:08.544 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:02:08.544 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:02:08.545 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:02:08.545 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:02:08.549 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:02:08.551 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:02:08.552 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:02:08.552 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:02:08.553 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:02:08.554 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:02:08.595 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 21:02:08.611 [INFO ] - Rpc server is initialized
+2019-03-17 21:02:08.614 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 21:02:08.616 [INFO ] - Rpc server is starting on port:0
+2019-03-17 21:02:08.617 [INFO ] - Rpc server is started.
+2019-03-17 21:08:33.265 [INFO ] - Starting ActuatorTest on v with PID 44876 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:08:33.272 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:08:36.029 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:08:36.032 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:08:36.039 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:08:36.040 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:08:36.058 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:08:36.059 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:08:36.060 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:08:36.107 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:08:36.363 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:08:36.364 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:08:36.364 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:08:36.365 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:08:36.367 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:08:36.367 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:08:36.916 [INFO ] - App[test] load succeed
+2019-03-17 21:08:37.154 [INFO ] - Starting MyPlatformApplicationTests on v with PID 44876 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:08:37.155 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:08:37.857 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:08:37.858 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:08:37.860 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:08:37.861 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:08:37.862 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:08:37.862 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:08:37.863 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:08:37.864 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:08:37.868 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:08:37.870 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:08:37.871 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:08:37.872 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:08:37.873 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:08:37.873 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:08:37.951 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 21:08:37.955 [INFO ] - Rpc server is initialized
+2019-03-17 21:08:37.957 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 21:08:37.959 [INFO ] - Rpc server is starting on port:0
+2019-03-17 21:08:37.960 [INFO ] - Rpc server is started.
+2019-03-17 21:09:14.364 [INFO ] - Starting ActuatorTest on v with PID 46012 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:09:14.368 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:09:17.082 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:09:17.086 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:09:17.093 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:09:17.095 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:09:17.110 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:09:17.111 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:09:17.111 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:09:17.157 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:09:17.413 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:09:17.414 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:09:17.414 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:09:17.415 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:09:17.417 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:09:17.418 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:09:17.806 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-17 21:09:17.807 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-17 21:09:17.807 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-17 21:09:20.644 [INFO ] - Started ActuatorTest in 7.052 seconds (JVM running for 8.289)
+2019-03-17 21:09:20.993 [INFO ] - App[test] load succeed
+2019-03-17 21:09:21.134 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 21:09:21.134 [INFO ] - Rpc server is initialized
+2019-03-17 21:09:21.134 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 21:09:21.137 [INFO ] - Rpc server is starting on port:0
+2019-03-17 21:09:21.139 [INFO ] - Rpc server is started.
+2019-03-17 21:09:31.158 [INFO ] - [cn.gxf.actuator.Application] is closed
+2019-03-17 21:09:31.158 [INFO ] - [cn.gxf.actuator.Actuator] is closed
+2019-03-17 21:09:31.159 [INFO ] - [cn.gxf.connector.SITPService] is closed
+2019-03-17 21:09:31.161 [INFO ] - [cn.gxf.MyPlatformServer] is closed
+2019-03-17 21:09:31.162 [INFO ] - 
+****************************************
+*          中间业务系统关闭成功        *
+****************************************
+2019-03-17 21:26:40.501 [INFO ] - Starting ActuatorTest on v with PID 43988 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:26:40.506 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:26:43.153 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:26:43.156 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:26:43.166 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:26:43.168 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:26:43.185 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:26:43.186 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:26:43.187 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:26:43.228 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:26:43.477 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:26:43.478 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:26:43.478 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:26:43.479 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:26:43.485 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:26:43.486 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:26:43.946 [INFO ] - App[test] load succeed
+2019-03-17 21:26:44.181 [INFO ] - Starting MyPlatformApplicationTests on v with PID 43988 (started by V in D:\Idea_Projects\my-platform)
+2019-03-17 21:26:44.182 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-17 21:26:44.946 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-17 21:26:44.946 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-17 21:26:44.947 [INFO ] - Platform scanApps success, size[1]
+2019-03-17 21:26:44.948 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-17 21:26:44.949 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-17 21:26:44.950 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-17 21:26:44.950 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-17 21:26:44.951 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-17 21:26:44.955 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-17 21:26:44.956 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-17 21:26:44.956 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-17 21:26:44.957 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-17 21:26:44.957 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-17 21:26:44.958 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-17 21:26:44.985 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-17 21:26:44.987 [INFO ] - Rpc server is initialized
+2019-03-17 21:26:44.988 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-17 21:26:44.988 [INFO ] - Rpc server is starting on port:0
+2019-03-17 21:26:44.989 [INFO ] - Rpc server is started.

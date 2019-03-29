@@ -1,7 +1,8 @@
 server:
   port: 8001
 actuator:
-  apps-absolute-path: D:/Idea_Projects/my-platform/src/main/resources/service
+#  apps-absolute-path: D:/Idea_Projects/my-platform/src/main/resources/service
+  apps-absolute-path: C:\Users\V\Desktop\myPlatform\service
   coreSize: 10
   maxSize: 20
   keepAlive: 5

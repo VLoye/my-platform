@@ -4,7 +4,7 @@ package cn.gxf.connector.handler;/**
 
 import cn.gxf.actuator.executor.exec.ServiceInvocationException;
 import cn.gxf.core.Constants;
-import cn.gxf.actuator.executor.DefaultHeader;
+import cn.gxf.core.DefaultHeader;
 import cn.gxf.core.Response;
 import cn.gxf.connector.codec.ProtocolTypeFactory;
 import io.netty.buffer.ByteBuf;
@@ -74,6 +74,8 @@ public class ByteToResponseDecoderHandler extends ByteToMessageDecoder {
                 return Integer.valueOf(value);
             case Constants.doubleClass:
                 return Double.valueOf(value);
+            case Constants.booleanClass:
+                return Boolean.valueOf(value);
         }
 
         logger.error("No such type: [{}]", className);

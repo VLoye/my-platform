@@ -2,7 +2,7 @@ package cn.gxf.connector.handler;/**
  * Created by VLoye on 2019/3/12.
  */
 
-import cn.gxf.actuator.executor.DefaultHeader;
+import cn.gxf.core.DefaultHeader;
 import cn.gxf.core.Request;
 import cn.gxf.connector.IProtocol;
 import cn.gxf.connector.codec.DecoderFactory;

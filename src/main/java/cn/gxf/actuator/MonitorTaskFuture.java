@@ -2,12 +2,11 @@ package cn.gxf.actuator;/**
  * Created by VLoye on 2019/3/16.
  */
 
-import cn.gxf.actuator.executor.ServiceInvocationTask;
+import cn.gxf.actuator.executor.core.ServiceInvocationTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.RunnableFuture;
 
 /**
  * @author V

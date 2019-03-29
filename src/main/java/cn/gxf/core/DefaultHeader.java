@@ -1,8 +1,7 @@
-package cn.gxf.actuator.executor;/**
+package cn.gxf.core;/**
  * Created by VLoye on 2019/3/12.
  */
 
-import cn.gxf.core.Constants;
 import cn.gxf.Utils.UUIDUtil;
 import cn.gxf.connector.codec.ProtocolType;
 import lombok.Data;
@@ -18,8 +17,8 @@ import java.io.IOException;
  **/
 @Data
 public class DefaultHeader {
-    private int magic;
-    private boolean reply;
+    private int magic; //4
+    private boolean reply; //1
     private byte version;
     private ProtocolType type;
     private String sessionId; //16

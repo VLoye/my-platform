@@ -14,9 +14,9 @@ import java.util.List;
  **/
 @Data
 public class SITP {
-    private String appName;
-    private String functionName;
-    private String serviceName;
-    private ArrayList params;
+    private String appName;         //应用名
+    private String functionName;    //功能名
+    private String serviceName;     //服务名
+    private ArrayList params;       //参数
 
 }

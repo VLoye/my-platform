@@ -2,13 +2,13 @@ package cn.gxf.actuator;/**
  * Created by VLoye on 2018/12/27.
  */
 
-import cn.gxf.ctrl.controller.PFController;
-import cn.gxf.actuator.executor.ThreadNameFactory;
+import cn.gxf.controller.PFController;
+import cn.gxf.actuator.executor.core.ThreadNameFactory;
 import cn.gxf.core.Bus;
 import cn.gxf.core.Device;
 import cn.gxf.core.Message;
 import cn.gxf.core.Request;
-import cn.gxf.actuator.executor.ServiceInvocationTask;
+import cn.gxf.actuator.executor.core.ServiceInvocationTask;
 import cn.gxf.actuator.loader.ServiceClassLoader;
 import cn.gxf.common.DefaultILifecycleManager;
 import cn.gxf.common.ILifecycleManager;
@@ -123,8 +123,8 @@ public class Actuator extends DefaultILifecycleManager implements ILifecycleMana
         logger.info("Platform scanApps success, size[{}]", apps.size());
     }
 
-    private App loadApp(File file) throws MalformedURLException {
-        if (file == null) {
+    public App loadApp(File file) throws MalformedURLException {
+        if (file == null || !file.exists()) {
             return null;
         }
         String path = file.getPath();

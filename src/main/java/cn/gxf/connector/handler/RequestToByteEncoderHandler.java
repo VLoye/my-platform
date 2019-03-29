@@ -3,7 +3,7 @@ package cn.gxf.connector.handler;/**
  */
 
 import cn.gxf.Utils.CrcUtil;
-import cn.gxf.actuator.executor.DefaultHeader;
+import cn.gxf.core.DefaultHeader;
 import cn.gxf.core.Constants;
 import cn.gxf.core.Request;
 import cn.gxf.connector.IProtocol;
