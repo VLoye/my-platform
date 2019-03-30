@@ -2,7 +2,7 @@ package cn.gxf.actuator;/**
  * Created by VLoye on 2018/12/27.
  */
 
-import cn.gxf.controller.PFController;
+import cn.gxf.controller.MonitorController;
 import cn.gxf.actuator.executor.core.ThreadNameFactory;
 import cn.gxf.core.Bus;
 import cn.gxf.core.Device;
@@ -55,7 +55,7 @@ public class Actuator extends DefaultILifecycleManager implements ILifecycleMana
     //是否需要一个结果集
 
     //需要一个控制器
-    PFController controller;
+    MonitorController controller;
 
 
     //void submitInvocation();
@@ -101,7 +101,7 @@ public class Actuator extends DefaultILifecycleManager implements ILifecycleMana
         }
         File[] files = file.listFiles(new JarFilter());
         for (File f : files) {
-            appFiles.put(f.getName().replaceAll(".jar",""), f);
+            appFiles.put(f.getName().replaceAll(".jar", ""), f);
         }
     }
 
@@ -131,12 +131,10 @@ public class Actuator extends DefaultILifecycleManager implements ILifecycleMana
         URL url = new URL("file:\\" + path);
         ClassLoader classLoader = new ServiceClassLoader(new URL[]{url}, App.class.getClassLoader());
 
-        App app = new Application(file.getName().replaceAll(".jar",""), file.getPath(), classLoader);
+        App app = new Application(file.getName().replaceAll(".jar", ""), file.getPath(), classLoader);
 
         return app;
     }
-
-
 
 
     @Override
@@ -183,13 +181,14 @@ public class Actuator extends DefaultILifecycleManager implements ILifecycleMana
 
     public List<BusyThreadState> getBusyThreadState() {
         List list = new ArrayList<BusyThreadState>();
-        Iterator iterator = servicesExecutorPool.getQueue().iterator();
+//        Iterator iterator = servicesExecutorPool.getQueue().iterator();
+        Iterator iterator = ((ServiceThreadPool)servicesExecutorPool).getTasks().iterator();
         while (iterator.hasNext()) {
             ServiceInvocationTask task = (ServiceInvocationTask) iterator.next();
 
             BusyThreadState state = new BusyThreadState();
             state.setName(task.getThreadName());
-            state.setExecutetime(System.currentTimeMillis()-task.getContext().getStartTime());
+            state.setExecutetime(System.currentTimeMillis() - task.getContext().getStartTime());
             state.setTraceId(task.getRequest().getHeader().getSessionId());
             state.setExecuteService(task.getRequest().getAppName() + "/" + task.getRequest().getFuncName() + "/" + task.getRequest().getServiceName());
             list.add(state);

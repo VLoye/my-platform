@@ -16,7 +16,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/monitor")
-public class PFController {
+public class MonitorController {
     @Autowired
     private MyPlatformServer server;
 

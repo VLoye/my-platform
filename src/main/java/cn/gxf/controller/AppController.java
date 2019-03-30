@@ -92,6 +92,10 @@ public class AppController {
         }
         server.getActuator().getApps().remove(appName);
         server.getActuator().getAppFiles().remove(appName);
+
+        //回收
+        application=null;
+        logger.info("Application [{}] uninstall success.",appName);
         return "Uninstall application " + appName + " success.";
 
     }

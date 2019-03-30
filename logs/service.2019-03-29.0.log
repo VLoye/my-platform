@@ -1,0 +1,70 @@
+2019-03-29 23:26:12.966 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:26:13.032 [INFO ] - Trace ID:[33fad480b7f14089]
+2019-03-29 23:26:13.033 [INFO ] - Start timestamp: [1553873172966]
+2019-03-29 23:26:13.034 [INFO ] - Target service: [Trace001-2.0/trace/transfer]
+2019-03-29 23:26:13.034 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:26:13.035 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:31:51.703 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:31:51.703 [INFO ] - Trace ID:[d7ea5e38075b470e]
+2019-03-29 23:31:51.704 [INFO ] - Start timestamp: [1553873511703]
+2019-03-29 23:31:51.704 [INFO ] - Target service: [Trace001-2.0/trace/transfer]
+2019-03-29 23:31:51.708 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:31:51.709 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:31:51.710 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:31:51.710 [WARN ] - Invalid request ,app not found: [Trace001-2.0]
+2019-03-29 23:31:51.712 [INFO ] - Service execute result: [false]
+2019-03-29 23:31:51.715 [ERROR] - Service execute cause a exception :
+cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: Trace001-2.0
+	at cn.gxf.actuator.executor.core.ServiceInvocationTask.initContext(ServiceInvocationTask.java:111)
+	at cn.gxf.actuator.executor.core.ServiceInvocationTask.run(ServiceInvocationTask.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-29 23:31:51.716 [INFO ] - Elapsed Time: [13]ms
+2019-03-29 23:31:51.716 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:32:37.651 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:32:37.652 [INFO ] - Trace ID:[850d78eb247349e1]
+2019-03-29 23:32:37.652 [INFO ] - Start timestamp: [1553873557651]
+2019-03-29 23:32:37.653 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:32:37.653 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:32:37.653 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:32:37.654 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:32:37.947 [INFO ] - Service execute result: [true]
+2019-03-29 23:32:37.948 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:32:37.948 [INFO ] - Elapsed Time: [297]ms
+2019-03-29 23:32:37.948 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:34:51.927 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:34:51.928 [INFO ] - Trace ID:[32f240b10e2b4693]
+2019-03-29 23:34:51.928 [INFO ] - Start timestamp: [1553873691927]
+2019-03-29 23:34:51.929 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:34:51.932 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:34:51.934 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:34:51.936 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:34:51.948 [INFO ] - Service execute result: [true]
+2019-03-29 23:34:51.948 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:34:51.949 [INFO ] - Elapsed Time: [22]ms
+2019-03-29 23:34:51.949 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:35:26.044 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:35:26.045 [INFO ] - Trace ID:[72dc66abb5f344a4]
+2019-03-29 23:35:26.045 [INFO ] - Start timestamp: [1553873726044]
+2019-03-29 23:35:26.046 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:35:26.046 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:35:26.046 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:35:26.047 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:35:26.063 [INFO ] - Service execute result: [true]
+2019-03-29 23:35:26.064 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:35:26.064 [INFO ] - Elapsed Time: [20]ms
+2019-03-29 23:35:26.064 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:53:13.690 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:53:13.691 [INFO ] - Trace ID:[288bc832bf514d77]
+2019-03-29 23:53:13.691 [INFO ] - Start timestamp: [1553874793690]
+2019-03-29 23:53:13.691 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:53:14.116 [INFO ] - Service execute result: [true]
+2019-03-29 23:53:14.117 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:53:14.117 [INFO ] - Elapsed Time: [427]ms
+2019-03-29 23:53:14.118 [INFO ] - [---------------- Trace End   ----------------]

@@ -6,7 +6,9 @@ import cn.gxf.Context.Context;
 import cn.gxf.actuator.executor.core.ServiceInvocationTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Qualifier;
 
+import java.util.Queue;
 import java.util.concurrent.*;
 
 /**
@@ -16,6 +18,8 @@ import java.util.concurrent.*;
  **/
 public class ServiceThreadPool extends ThreadPoolExecutor {
     private static final Logger logger = LoggerFactory.getLogger(ServiceThreadPool.class);
+
+    private Queue<Runnable> tasks =  new ArrayBlockingQueue<Runnable>(512);
 
     public ServiceThreadPool(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue) {
         super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue);
@@ -47,7 +51,7 @@ public class ServiceThreadPool extends ThreadPoolExecutor {
         //error
         task.setContext(new Context(task.getRequest()));
         task.getContext().setStartTime(System.currentTimeMillis());
-
+        tasks.add(task);
     }
 
     private ServiceInvocationTask getTask(Runnable r) {
@@ -64,5 +68,11 @@ public class ServiceThreadPool extends ThreadPoolExecutor {
     @Override
     protected void afterExecute(Runnable r, Throwable t) {
         super.afterExecute(r, t);
+        ServiceInvocationTask task = getTask(r);
+        tasks.remove(task);
+    }
+
+    public Queue<Runnable> getTasks() {
+        return tasks;
     }
 }

@@ -78,13 +78,18 @@ public class SITPClient {
 
     }
 
-    public Object invoke(String app, String fun, String service, ArrayList params) throws ServiceInvocationException {
+    public Object invoke(String app, String fun, String service, ArrayList params, long timeout) throws ServiceInvocationException {
         SITP sitp = new SITP();
         sitp.setAppName(app);
         sitp.setFunctionName(fun);
         sitp.setServiceName(service);
         sitp.setParams(params);
-        return invoke(sitp);
+        return invoke(sitp,timeout);
+    }
+
+
+    public Object invoke(String app, String fun, String service, ArrayList params) throws ServiceInvocationException {
+        return invoke(app,fun,service,params,TIMEOUT);
     }
 
     public Object invoke(SITP sitp) throws ServiceInvocationException {
@@ -130,10 +135,10 @@ public class SITPClient {
         client.connect();
 
         ArrayList list = new ArrayList();
-        list.add(10001);
-        list.add(10002);
-        list.add(new BigDecimal(1000));
-        Object res = client.invoke("Trace002-1.0", "trace", "transfer", list);
+        list.add(60 * 1000);
+//        list.add(10002);
+//        list.add(new BigDecimal(1000));
+        Object res = client.invoke("Trace002-1.0", "task", "timingTask", list,90*1000);
         System.out.println(res);
     }
 }
