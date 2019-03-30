@@ -5,6 +5,7 @@ package cn.gxf.controller;/**
 import cn.gxf.MyPlatformServer;
 import cn.gxf.actuator.Application;
 import cn.gxf.actuator.loader.ServiceApi;
+import cn.gxf.actuator.loader.ServiceClassLoader;
 import cn.gxf.ctrl.entity.AppInfo;
 import cn.gxf.ctrl.entity.ServiceInfo;
 import org.slf4j.Logger;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
@@ -94,6 +96,12 @@ public class AppController {
         server.getActuator().getAppFiles().remove(appName);
 
         //回收
+        try {
+            ((ServiceClassLoader)application.getClassLoader()).close();
+        } catch (IOException e) {
+//
+            logger.error("Application release resource cause a exec: [{}]",e);
+        }
         application=null;
         logger.info("Application [{}] uninstall success.",appName);
         return "Uninstall application " + appName + " success.";
