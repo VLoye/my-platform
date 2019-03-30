@@ -63,6 +63,9 @@ public class AppController {
             return "failure. Service has deployed";
         }
         File file = new File(server.getActuator().getConfig().getAppsAbsolutePath() + "\\" + appName + ".jar");
+        if (file.exists()) {
+            server.getActuator().getAppFiles().put(appName, file);
+        }
         try {
             application = (Application) server.getActuator().loadApp(file);
         } catch (MalformedURLException e) {
@@ -70,7 +73,7 @@ public class AppController {
             return "Failure. Unknown exception.";
         }
         if (application != null) {
-            server.getActuator().getApps().put(appName,application);
+            server.getActuator().getApps().put(appName, application);
             try {
                 application.loadAndScan();
             } catch (Exception e) {
@@ -79,6 +82,18 @@ public class AppController {
             return "Deploy application success.";
         }
         return "Failure. Application does not exist";
+    }
+
+    @RequestMapping("/uninstall/{appName}")
+    public String unDeploy(@PathVariable String appName) {
+        Application application = (Application) server.getActuator().getApps().get(appName);
+        if (application == null) {
+            return "failure. Service is not exist";
+        }
+        server.getActuator().getApps().remove(appName);
+        server.getActuator().getAppFiles().remove(appName);
+        return "Uninstall application " + appName + " success.";
+
     }
 
 }

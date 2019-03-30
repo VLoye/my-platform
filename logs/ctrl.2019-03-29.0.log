@@ -1,0 +1,469 @@
+2019-03-29 16:36:54.700 [INFO ] - Starting ActuatorTest on v with PID 26084 (started by V in D:\Idea_Projects\my-platform)
+2019-03-29 16:36:54.799 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 16:36:56.250 [INFO ] - App[test] load succeed
+2019-03-29 16:36:56.738 [INFO ] - Starting MyPlatformApplicationTests on v with PID 26084 (started by V in D:\Idea_Projects\my-platform)
+2019-03-29 16:36:56.740 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 16:36:57.045 [INFO ] - [cn.gxf.rpc.server.RpcServer] is initing
+2019-03-29 16:36:57.046 [INFO ] - Rpc server is initialized
+2019-03-29 16:36:57.048 [INFO ] - [cn.gxf.rpc.server.RpcServer] is starting
+2019-03-29 16:36:57.050 [INFO ] - Rpc server is starting on port:0
+2019-03-29 16:36:57.051 [INFO ] - Rpc server is started.
+2019-03-29 23:01:58.309 [INFO ] - Starting MyPlatformApplication on v with PID 18492 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:01:58.323 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:02:03.620 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:02:03.624 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:02:03.631 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:02:03.632 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:02:03.638 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:04:38.831 [INFO ] - Starting MyPlatformApplication on v with PID 23504 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:04:38.836 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:04:42.659 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:04:42.661 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:04:42.665 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:04:42.666 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:04:42.669 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:12:27.038 [INFO ] - Starting MyPlatformApplication on v with PID 14592 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:12:27.045 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:12:31.936 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:12:31.939 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:12:33.389 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:12:33.389 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:13:15.514 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:13:40.539 [INFO ] - Starting MyPlatformApplication on v with PID 15572 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:13:40.546 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:13:45.386 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:13:45.420 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:15:29.336 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:15:44.912 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:16:28.025 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:16:31.813 [INFO ] - Starting MyPlatformApplication on v with PID 25928 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:16:31.821 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:16:38.424 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:16:38.435 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:16:45.473 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:16:45.474 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:17:35.066 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:18:15.306 [INFO ] - Starting MyPlatformApplication on v with PID 21388 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:18:15.314 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:18:19.979 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:18:21.010 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:20:20.220 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:20:20.222 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:20:20.230 [ERROR] - App[Trace001-1.0] initialize fail,cause by: {}
+java.lang.ClassNotFoundException: com.test.db.C3P0ConnPool
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at cn.gxf.actuator.loader.ServiceClassLoader.findClass(ServiceClassLoader.java:25)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at cn.gxf.actuator.loader.ServiceClassLoader.loadClass(ServiceClassLoader.java:36)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:85)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+2019-03-29 23:20:42.759 [INFO ] - Starting MyPlatformApplication on v with PID 10096 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:20:42.765 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:20:46.992 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:20:46.994 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:20:47.000 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:20:47.000 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:20:47.008 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-29 23:20:47.009 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:20:47.009 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:20:47.014 [ERROR] - Create Bean error, cause by: {}
+java.lang.InstantiationException: com.test.Trace
+	at java.lang.Class.newInstance(Class.java:427)
+	at cn.gxf.actuator.loader.AbstractBean.createBean(AbstractBean.java:35)
+	at cn.gxf.actuator.loader.SingletonBean.getInstance(SingletonBean.java:27)
+	at cn.gxf.actuator.Application.loadAndScan(Application.java:123)
+	at cn.gxf.actuator.Application.initialize(Application.java:47)
+	at cn.gxf.actuator.Actuator.initialize(Actuator.java:85)
+	at cn.gxf.MyPlatformServer.initialize(MyPlatformServer.java:66)
+	at cn.gxf.common.DefaultILifecycleManager.startUp(DefaultILifecycleManager.java:28)
+	at cn.gxf.MyPlatformServer.startUp(MyPlatformServer.java:75)
+	at cn.gxf.MyPlatformServer.afterPropertiesSet(MyPlatformServer.java:45)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at cn.gxf.MyPlatformApplication.main(MyPlatformApplication.java:15)
+Caused by: java.lang.NoSuchMethodException: com.test.Trace.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.newInstance(Class.java:412)
+	... 27 common frames omitted
+2019-03-29 23:20:47.117 [INFO ] - App[Trace002-1.0] load succeed
+2019-03-29 23:20:47.117 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:20:47.117 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-29 23:20:47.167 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-29 23:20:47.253 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-29 23:20:47.253 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-29 23:20:47.254 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-29 23:20:47.254 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-29 23:20:47.256 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-29 23:20:47.256 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-29 23:20:47.720 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-29 23:20:47.721 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-29 23:20:47.721 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-29 23:20:48.487 [INFO ] - Started MyPlatformApplication in 6.482 seconds (JVM running for 7.602)
+2019-03-29 23:22:59.141 [INFO ] - Starting MyPlatformApplication on v with PID 23616 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:22:59.147 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:23:03.509 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:23:03.511 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:23:03.516 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:23:03.516 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:23:03.527 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-29 23:23:03.528 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:23:03.528 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:23:03.624 [INFO ] - App[Trace002-1.0] load succeed
+2019-03-29 23:23:03.624 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:23:03.624 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-29 23:23:03.644 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-29 23:23:03.700 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-29 23:23:03.700 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-29 23:23:03.700 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-29 23:23:03.700 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-29 23:23:03.701 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-29 23:23:03.701 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-29 23:23:04.081 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-29 23:23:04.081 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-29 23:23:04.082 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-29 23:23:04.716 [INFO ] - Started MyPlatformApplication in 6.313 seconds (JVM running for 7.533)
+2019-03-29 23:26:12.960 [ERROR] - No such type: [java.math.BigDecimal]
+2019-03-29 23:26:12.966 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:26:13.032 [INFO ] - Trace ID:[33fad480b7f14089]
+2019-03-29 23:26:13.033 [INFO ] - Start timestamp: [1553873172966]
+2019-03-29 23:26:13.034 [INFO ] - Target service: [Trace001-2.0/trace/transfer]
+2019-03-29 23:26:13.034 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:26:13.035 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:31:19.711 [INFO ] - Starting MyPlatformApplication on v with PID 14092 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:31:19.717 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:31:24.096 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:31:24.097 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:31:24.102 [INFO ] - Platform scanApps success, size[2]
+2019-03-29 23:31:24.102 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:31:24.110 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-29 23:31:24.110 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:31:24.110 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:31:24.211 [INFO ] - App[Trace002-1.0] load succeed
+2019-03-29 23:31:24.211 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:31:24.211 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-29 23:31:24.227 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-29 23:31:24.278 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-29 23:31:24.278 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-29 23:31:24.279 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-29 23:31:24.279 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-29 23:31:24.280 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-29 23:31:24.281 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-29 23:31:24.673 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-29 23:31:24.674 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-29 23:31:24.674 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-29 23:31:25.288 [INFO ] - Started MyPlatformApplication in 6.354 seconds (JVM running for 7.161)
+2019-03-29 23:31:51.703 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:31:51.703 [INFO ] - Trace ID:[d7ea5e38075b470e]
+2019-03-29 23:31:51.704 [INFO ] - Start timestamp: [1553873511703]
+2019-03-29 23:31:51.704 [INFO ] - Target service: [Trace001-2.0/trace/transfer]
+2019-03-29 23:31:51.708 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:31:51.709 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:31:51.710 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:31:51.710 [WARN ] - Invalid request ,app not found: [Trace001-2.0]
+2019-03-29 23:31:51.712 [INFO ] - Service execute result: [false]
+2019-03-29 23:31:51.715 [ERROR] - Service execute cause a exception :
+cn.gxf.actuator.executor.exec.ServiceNotFoundException: Service Invocation fail, no such app: Trace001-2.0
+	at cn.gxf.actuator.executor.core.ServiceInvocationTask.initContext(ServiceInvocationTask.java:111)
+	at cn.gxf.actuator.executor.core.ServiceInvocationTask.run(ServiceInvocationTask.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-29 23:31:51.716 [INFO ] - Elapsed Time: [13]ms
+2019-03-29 23:31:51.716 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:32:37.651 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:32:37.652 [INFO ] - Trace ID:[850d78eb247349e1]
+2019-03-29 23:32:37.652 [INFO ] - Start timestamp: [1553873557651]
+2019-03-29 23:32:37.653 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:32:37.653 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:32:37.653 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:32:37.654 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:32:37.947 [INFO ] - Service execute result: [true]
+2019-03-29 23:32:37.948 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:32:37.948 [INFO ] - Elapsed Time: [297]ms
+2019-03-29 23:32:37.948 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:34:51.927 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:34:51.928 [INFO ] - Trace ID:[32f240b10e2b4693]
+2019-03-29 23:34:51.928 [INFO ] - Start timestamp: [1553873691927]
+2019-03-29 23:34:51.929 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:34:51.932 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:34:51.934 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:34:51.936 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:34:51.948 [INFO ] - Service execute result: [true]
+2019-03-29 23:34:51.948 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:34:51.949 [INFO ] - Elapsed Time: [22]ms
+2019-03-29 23:34:51.949 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:35:26.044 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:35:26.045 [INFO ] - Trace ID:[72dc66abb5f344a4]
+2019-03-29 23:35:26.045 [INFO ] - Start timestamp: [1553873726044]
+2019-03-29 23:35:26.046 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:35:26.046 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:35:26.046 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:35:26.047 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:35:26.063 [INFO ] - Service execute result: [true]
+2019-03-29 23:35:26.064 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:35:26.064 [INFO ] - Elapsed Time: [20]ms
+2019-03-29 23:35:26.064 [INFO ] - [---------------- Trace End   ----------------]
+2019-03-29 23:52:03.003 [INFO ] - Starting MyPlatformApplication on v with PID 10284 (D:\Idea_Projects\my-platform\target\classes started by V in D:\Idea_Projects\my-platform)
+2019-03-29 23:52:03.009 [INFO ] - No active profile set, falling back to default profiles: default
+2019-03-29 23:52:09.456 [INFO ] - [cn.gxf.MyPlatformServer] is initing
+2019-03-29 23:52:09.460 [INFO ] - [cn.gxf.actuator.Actuator] is initing
+2019-03-29 23:52:09.464 [INFO ] - Platform scanApps success, size[1]
+2019-03-29 23:52:09.464 [INFO ] - [cn.gxf.actuator.Application] is initing
+2019-03-29 23:52:09.478 [INFO ] - App[Trace001-1.0] load succeed
+2019-03-29 23:52:09.478 [INFO ] - [cn.gxf.actuator.Application] is inited
+2019-03-29 23:52:09.478 [INFO ] - [cn.gxf.actuator.Actuator] is inited
+2019-03-29 23:52:09.532 [INFO ] - [cn.gxf.connector.SITPService] is initing
+2019-03-29 23:52:09.617 [INFO ] - [cn.gxf.connector.SITPService] is inited
+2019-03-29 23:52:09.618 [INFO ] - [cn.gxf.MyPlatformServer] is inited
+2019-03-29 23:52:09.618 [INFO ] - [cn.gxf.MyPlatformServer] is starting
+2019-03-29 23:52:09.618 [INFO ] - [cn.gxf.actuator.Actuator] is starting
+2019-03-29 23:52:09.619 [INFO ] - [cn.gxf.actuator.Actuator] is started
+2019-03-29 23:52:09.620 [INFO ] - [cn.gxf.connector.SITPService] is starting
+2019-03-29 23:52:10.026 [INFO ] - [cn.gxf.connector.SITPService] is started
+2019-03-29 23:52:10.026 [INFO ] - [cn.gxf.MyPlatformServer] is started
+2019-03-29 23:52:10.026 [INFO ] - 
+****************************************
+*          中间业务系统启动成功        *
+****************************************
+ 处理器核心线程数：10        
+ 处理器最大线程数：20        
+ 处理器等待队列大小：1024        
+ 服务预加载是否开启：true        
+ SITP服务端口号：9999        
+****************************************
+2019-03-29 23:52:10.864 [INFO ] - Started MyPlatformApplication in 8.784 seconds (JVM running for 9.81)
+2019-03-29 23:52:46.795 [INFO ] - App[Trace002-1.0] load succeed
+2019-03-29 23:53:13.690 [INFO ] - [---------------- Trace Start ----------------]
+2019-03-29 23:53:13.691 [INFO ] - Trace ID:[288bc832bf514d77]
+2019-03-29 23:53:13.691 [INFO ] - Start timestamp: [1553874793690]
+2019-03-29 23:53:13.691 [INFO ] - Target service: [Trace002-1.0/trace/transfer]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.lang.Integer] | value [10001]]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.lang.Integer] | value [10002]]
+2019-03-29 23:53:13.692 [INFO ] - Params: [type: [class java.math.BigDecimal] | value [1000]]
+2019-03-29 23:53:14.116 [INFO ] - Service execute result: [true]
+2019-03-29 23:53:14.117 [INFO ] - Execution Result: [type: [class java.lang.Boolean] | value [true]]
+2019-03-29 23:53:14.117 [INFO ] - Elapsed Time: [427]ms
+2019-03-29 23:53:14.118 [INFO ] - [---------------- Trace End   ----------------]
