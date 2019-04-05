@@ -3,9 +3,7 @@ package cn.v.entity;/**
  */
 
 import lombok.Data;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import sun.net.www.http.HttpClient;
+
 
 /**
  * @author V
@@ -14,7 +12,6 @@ import sun.net.www.http.HttpClient;
  **/
 @Data
 public class HttpResult {
-    private static final Logger logger = LoggerFactory.getLogger(HttpResult.class);
     private boolean isSuccess;
     private String rsp;
 

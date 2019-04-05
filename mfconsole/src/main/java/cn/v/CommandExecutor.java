@@ -4,9 +4,7 @@ package cn.v;/**
 
 import cn.v.entity.JSONUtil;
 import cn.v.entity.HttpResult;
-import com.alibaba.fastjson.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 
 /**
@@ -15,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * @Description
  **/
 public class CommandExecutor {
-    private static final Logger logger = LoggerFactory.getLogger(CommandExecutor.class);
+
     private static final String URL = "http://127.0.0.1:9527";
     private static final String SYNTAX_ERROR = "The syntax of the command is incorrect. Please retry or input 'help' for help";
     private HttpUtil util = new HttpUtil();

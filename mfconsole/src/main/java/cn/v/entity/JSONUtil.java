@@ -2,16 +2,12 @@ package cn.v.entity;/**
  * Created by VLoye on 2019/4/5.
  */
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * @author V
  * @Classname JSONUtil
  * @Description
  **/
 public class JSONUtil {
-    private static final Logger logger = LoggerFactory.getLogger(JSONUtil.class);
 
     public static final String SEPARATOR = "    ";
 
