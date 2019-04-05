@@ -8,6 +8,8 @@ import cn.gxf.actuator.loader.ServiceApi;
 import cn.gxf.actuator.loader.ServiceClassLoader;
 import cn.gxf.ctrl.entity.AppInfo;
 import cn.gxf.ctrl.entity.ServiceInfo;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,8 +42,11 @@ public class AppController {
 
     @RequestMapping("/get/{appName}")
     @ResponseBody
-    public AppInfo getApp(@PathVariable(value = "appName") String appName) {
+    public String getApp(@PathVariable(value = "appName") String appName) {
         Application application = (Application) server.getActuator().getApps().get(appName);
+        if(application == null){
+            return "Failure. No such application";
+        }
         AppInfo appInfo = new AppInfo();
         appInfo.setAppName(application.getName());
         List<ServiceInfo> services = new ArrayList<ServiceInfo>();
@@ -55,14 +60,14 @@ public class AppController {
             services.add(serviceInfo);
         }
         appInfo.setServices(services);
-        return appInfo;
+        return JSONObject.toJSONString(appInfo);
     }
 
     @RequestMapping("/deploy/{appName}")
     public String deploy(@PathVariable String appName) {
         Application application = (Application) server.getActuator().getApps().get(appName);
         if (application != null) {
-            return "failure. Service has deployed";
+            return "Failure. Service has deployed";
         }
         File file = new File(server.getActuator().getConfig().getAppsAbsolutePath() + "\\" + appName + ".jar");
         if (file.exists()) {

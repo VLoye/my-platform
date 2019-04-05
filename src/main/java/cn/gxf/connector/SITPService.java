@@ -71,6 +71,7 @@ public class SITPService extends DefaultILifecycleManager implements ILifecycleM
         updateLifeState(LifeState.STARTED);
     }
 
+    //服务端关闭
     @Override
     public void shutDown() throws LifecycleException {
         super.shutDown();
