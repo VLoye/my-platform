@@ -14,10 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -63,7 +60,7 @@ public class AppController {
         return JSONObject.toJSONString(appInfo);
     }
 
-    @RequestMapping("/deploy/{appName}")
+    @RequestMapping(value = "/deploy/{appName}",method = RequestMethod.POST)
     public String deploy(@PathVariable String appName) {
         Application application = (Application) server.getActuator().getApps().get(appName);
         if (application != null) {
@@ -91,7 +88,7 @@ public class AppController {
         return "Failure. Application does not exist";
     }
 
-    @RequestMapping("/uninstall/{appName}")
+    @RequestMapping(value = "/uninstall/{appName}",method = RequestMethod.POST)
     public String unDeploy(@PathVariable String appName) {
         Application application = (Application) server.getActuator().getApps().get(appName);
         if (application == null) {
